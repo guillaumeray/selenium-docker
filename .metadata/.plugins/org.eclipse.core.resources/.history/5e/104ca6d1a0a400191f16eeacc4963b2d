@@ -1,0 +1,16 @@
+package com.newtours.tests;
+
+import org.openqa.selenium.WebDriver;
+
+
+public class RegistrationTest {
+	
+	private WebDriver driver;
+	
+	@BeforeTest
+	public void setupDriver() {
+		
+	}
+	
+
+}

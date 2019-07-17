@@ -1,0 +1,7 @@
+<suite name="book-flight-module">
+	<test>
+	<classes>
+		<class name="com.newtours.tests.RegistrationTest"/>
+	</classes>
+	</test>
+</suite>

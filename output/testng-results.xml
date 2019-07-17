@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="book-flight-module" duration-ms="12543" started-at="2019-07-15T16:15:28Z" finished-at="2019-07-15T16:15:40Z">
+    <groups>
+    </groups>
+    <test name="book-test-1" duration-ms="2978" started-at="2019-07-15T16:15:28Z" finished-at="2019-07-15T16:15:31Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@2a18f23c]" name="setupDriver" is-config="true" duration-ms="1723" started-at="2019-07-15T16:15:28Z" finished-at="2019-07-15T16:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:com.newtours.tests.BookFlightTest@2a18f23c]" name="registrationPageTest" duration-ms="1163" started-at="2019-07-15T16:15:29Z" finished-at="2019-07-15T16:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@2a18f23c]" name="quitDriver" is-config="true" duration-ms="68" started-at="2019-07-15T16:15:31Z" finished-at="2019-07-15T16:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- book-test-1 -->
+    <test name="book-test-2" duration-ms="1902" started-at="2019-07-15T16:15:31Z" finished-at="2019-07-15T16:15:33Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@129a8472]" name="setupDriver" is-config="true" duration-ms="677" started-at="2019-07-15T16:15:31Z" finished-at="2019-07-15T16:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:com.newtours.tests.BookFlightTest@129a8472]" name="registrationPageTest" duration-ms="1147" started-at="2019-07-15T16:15:31Z" finished-at="2019-07-15T16:15:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@129a8472]" name="quitDriver" is-config="true" duration-ms="76" started-at="2019-07-15T16:15:33Z" finished-at="2019-07-15T16:15:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- book-test-2 -->
+    <test name="book-test-3" duration-ms="1902" started-at="2019-07-15T16:15:33Z" finished-at="2019-07-15T16:15:35Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@2752f6e2]" name="setupDriver" is-config="true" duration-ms="789" started-at="2019-07-15T16:15:33Z" finished-at="2019-07-15T16:15:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:com.newtours.tests.BookFlightTest@2752f6e2]" name="registrationPageTest" duration-ms="1049" started-at="2019-07-15T16:15:33Z" finished-at="2019-07-15T16:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@2752f6e2]" name="quitDriver" is-config="true" duration-ms="63" started-at="2019-07-15T16:15:34Z" finished-at="2019-07-15T16:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- book-test-3 -->
+    <test name="book-test-4" duration-ms="1964" started-at="2019-07-15T16:15:35Z" finished-at="2019-07-15T16:15:37Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@1d251891]" name="setupDriver" is-config="true" duration-ms="713" started-at="2019-07-15T16:15:35Z" finished-at="2019-07-15T16:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:com.newtours.tests.BookFlightTest@1d251891]" name="registrationPageTest" duration-ms="1176" started-at="2019-07-15T16:15:35Z" finished-at="2019-07-15T16:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@1d251891]" name="quitDriver" is-config="true" duration-ms="74" started-at="2019-07-15T16:15:36Z" finished-at="2019-07-15T16:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- book-test-4 -->
+    <test name="book-test-5" duration-ms="1744" started-at="2019-07-15T16:15:37Z" finished-at="2019-07-15T16:15:38Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@43a25848]" name="setupDriver" is-config="true" duration-ms="657" started-at="2019-07-15T16:15:37Z" finished-at="2019-07-15T16:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:com.newtours.tests.BookFlightTest@43a25848]" name="registrationPageTest" duration-ms="1010" started-at="2019-07-15T16:15:37Z" finished-at="2019-07-15T16:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@43a25848]" name="quitDriver" is-config="true" duration-ms="77" started-at="2019-07-15T16:15:38Z" finished-at="2019-07-15T16:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- book-test-5 -->
+    <test name="book-test-6" duration-ms="1914" started-at="2019-07-15T16:15:38Z" finished-at="2019-07-15T16:15:40Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@6e8dacdf]" name="setupDriver" is-config="true" duration-ms="703" started-at="2019-07-15T16:15:38Z" finished-at="2019-07-15T16:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="registrationPageTest()[pri:0, instance:com.newtours.tests.BookFlightTest@6e8dacdf]" name="registrationPageTest" duration-ms="1140" started-at="2019-07-15T16:15:39Z" finished-at="2019-07-15T16:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@6e8dacdf]" name="quitDriver" is-config="true" duration-ms="70" started-at="2019-07-15T16:15:40Z" finished-at="2019-07-15T16:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- book-test-6 -->
+  </suite> <!-- book-flight-module -->
+</testng-results>

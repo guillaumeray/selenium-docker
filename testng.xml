@@ -1,0 +1,32 @@
+<suite name="book-flight-module">
+    <test name="book-test-1">
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest" />
+        </classes>
+    </test>
+    <test name="book-test-2">
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest" />
+        </classes>
+    </test>
+    <test name="book-test-3">
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest" />
+        </classes>
+    </test>
+    <test name="book-test-4">
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest" />
+        </classes>
+    </test>
+    <test name="book-test-5">
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest" />
+        </classes>
+    </test>
+    <test name="book-test-6">
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest" />
+        </classes>
+    </test>
+</suite>
