@@ -2,11 +2,8 @@ pipeline {
     agent none
     stages {
         stage('Build Jar') {
-            agent {
-                docker {
-                    image 'maven:3-alpine'
-                    args '-v /root/.m2:/root/.m2'
-                }
+            step {
+                sh "mvn clean package -DskipTests"
             }
             steps {
                 sh 'mvn clean package -DskipTests'
@@ -14,19 +11,14 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                script {
-                	app = docker.build("vinsdocker/selenium-docker")
-                }
+                sh "docker build -t selenium-udemy-java"
             }
         }
         stage('Push Image') {
             steps {
-                script {
-			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-			        	app.push("${BUILD_NUMBER}")
-			            app.push("latest")
-			        }
-                }
+                withCredentials([usernamePassword(credentialId: 'dockerhub', passwordVariable: 'pass', usernameVariable: 'user')]
+                sh "docker login --username=${USER} --password=${pass}"
+                sh "docker push selenium-udemy-java:latest"
             }
         }
     }
