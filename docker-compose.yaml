@@ -24,4 +24,4 @@ services:
     environment:
       - BROWSER=chrome
       - HUB_HOST=hub
-
+      - MODULE=testng
